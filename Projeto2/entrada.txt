@@ -1,0 +1,11 @@
+dim 25 25
+brush *
+line 25 25 15 16
+brush $
+circle 5 18 4 0
+brush #
+rectangle  1 1 7 7
+brush
+rectangle 3 3 4 3
+brush @
+circle 15 10 4 1
