@@ -1,0 +1,84 @@
+\hypertarget{class_main_window}{}\section{Main\+Window Class Reference}
+\label{class_main_window}\index{Main\+Window@{Main\+Window}}
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_main_window}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}\label{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}} 
+void \mbox{\hyperlink{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}{put\+Data}} ()
+\begin{DoxyCompactList}\small\item\em put\+Data um slot para capturar um certo dado(valor) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}\label{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}} 
+void \mbox{\hyperlink{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}{tcp\+Disconnect}} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Disconnect slot do botao para desconectar-\/se ao servidor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_ac5b669957c442b6eb68573dacfce33e1}{tcp\+Connect}} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Connect slot do botao para conectar-\/se ao servidor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_ae66e9ab15f911b93fce0f161d2fde880}\label{class_main_window_ae66e9ab15f911b93fce0f161d2fde880}} 
+void \mbox{\hyperlink{class_main_window_ae66e9ab15f911b93fce0f161d2fde880}{on\+\_\+start\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+start\+\_\+clicked slot do botao para dar inicio ao capturar dados \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_ac22e784eff724fc28b1c22aa65c4317d}\label{class_main_window_ac22e784eff724fc28b1c22aa65c4317d}} 
+void \mbox{\hyperlink{class_main_window_ac22e784eff724fc28b1c22aa65c4317d}{on\+\_\+stop\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+stop\+\_\+clicked slot para parar a captura de dados \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_a9d08a694a5f9c532225754381b8011ea}{timer\+Event}} (Q\+Timer\+Event $\ast$e)
+\begin{DoxyCompactList}\small\item\em timer\+Event um funçao dependente para controlar o tempo do programa \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\+Window}} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_main_window}{Main\+Window}} da inicio a programacao em qt. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}} 
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window()}{MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::\+Main\+Window (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\mbox{\hyperlink{class_main_window}{Main\+Window}} da inicio a programacao em qt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & um ponteiro da classe Q\+Widget \\
+\hline
+\end{DoxyParams}
+Conexão com cada sinal e slot.
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_main_window_ac5b669957c442b6eb68573dacfce33e1}\label{class_main_window_ac5b669957c442b6eb68573dacfce33e1}} 
+\index{Main\+Window@{Main\+Window}!tcp\+Connect@{tcp\+Connect}}
+\index{tcp\+Connect@{tcp\+Connect}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{tcp\+Connect}{tcpConnect}}
+{\footnotesize\ttfamily void Main\+Window\+::tcp\+Connect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+tcp\+Connect slot do botao para conectar-\/se ao servidor 
+
+Conexão com o servidor. Conecta à um servidor Host.\mbox{\Hypertarget{class_main_window_a9d08a694a5f9c532225754381b8011ea}\label{class_main_window_a9d08a694a5f9c532225754381b8011ea}} 
+\index{Main\+Window@{Main\+Window}!timer\+Event@{timer\+Event}}
+\index{timer\+Event@{timer\+Event}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{timer\+Event}{timerEvent}}
+{\footnotesize\ttfamily void Main\+Window\+::timer\+Event (\begin{DoxyParamCaption}\item[{Q\+Timer\+Event $\ast$}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+timer\+Event um funçao dependente para controlar o tempo do programa 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & um ponteiro da classe Timer\+Event \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mainwindow.\+h\item 
+mainwindow.\+cpp\end{DoxyCompactItemize}
